@@ -14,7 +14,7 @@ lavalink:
       http: true
       local: false
     bufferDurationMs: 400
-    youtubePlaylistLoadLimit: 6 # Number of pages at 100 each
+    youtubePlaylistLoadLimit: 10 # Number of pages at 100 each
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     bandcampSearchEnabled: true
@@ -42,7 +42,7 @@ sentry:
 logging:
   file:
     max-history: 30
-    max-size: 2MB
+    max-size: 5MB
   path: ./logs/
 
   level:
