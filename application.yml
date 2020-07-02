@@ -6,20 +6,20 @@ lavalink:
     password: "youshallnotpass"
     sources:
       youtube: true
-      bandcamp: true
+      bandcamp: false
       soundcloud: true
-      twitch: true
-      vimeo: true
-      mixer: true
+      twitch: false
+      vimeo: false
+      mixer: false
       http: true
       local: false
     bufferDurationMs: 400
     youtubePlaylistLoadLimit: 10 # Number of pages at 100 each
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
-    bandcampSearchEnabled: true
-    vimeoSearchEnabled: true
-    twitchSearchEnabled: true
+    bandcampSearchEnabled: false
+    vimeoSearchEnabled: false
+    twitchSearchEnabled: false
     gc-warnings: true
     #ratelimit:
       #ipBlocks: ["1.0.0.0/8", "..."] # list of ip blocks
@@ -30,7 +30,7 @@ lavalink:
 
 metrics:
   prometheus:
-    enabled: false
+    enabled: true
     endpoint: /metrics
 
 sentry:
